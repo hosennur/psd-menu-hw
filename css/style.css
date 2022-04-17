@@ -1,0 +1,73 @@
+/* Common css start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+ol,ul{
+list-style-type: none;
+}
+ol,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+
+}
+.raw{
+    display:flex;
+    flex-wrap: wrap ;
+}
+.text-center{
+    text-align: center;
+}
+/* //common css end */
+
+/* nav sectio css start */
+
+nav{
+    background-color:#131e29 ;
+    width: 1170;
+    margin: 0 auto;
+    
+}
+nav{
+    align-items: center;
+}
+nav .logo{
+    width: 30% ;
+}
+nav .logo image{
+    display: block;
+    padding: 15px;
+}
+nav .menu{
+    width: 70% ;
+}
+nav .menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    }
+    nav .menu ul li a{
+        display: block;
+        font-size: 13px;
+        font-weight:800 ;
+        color:#4bcaff ,#babcbd ;
+        text-transform: uppercase ;
+        padding: 46px 18px ;
+        transition: all .4s linear;
+    }
+    nav .menu ul li:hover a{
+        color: ;
+    }
+
+/* //nav section css end */
